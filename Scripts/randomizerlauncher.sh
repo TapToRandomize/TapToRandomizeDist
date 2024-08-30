@@ -59,7 +59,7 @@ actraiser_optionstring(){
                 S) aroptions="-S $aroptions" ;;
         esac
         seed=$RANDOM
-        aroptions="$aroptions -s $seed -o $BaseRandoDir/current/$seed.sfc $ARRomPath"
+        aroptions="$aroptions -s $seed -o $BaseRandoDir/current/$seed.sfc '$ARRomPath'"
         echo "$aroptions"
 }
 bof3vv_options(){
