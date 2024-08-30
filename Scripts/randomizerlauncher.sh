@@ -59,7 +59,7 @@ actraiser_optionstring(){
                 S) aroptions="-S $aroptions" ;;
         esac
         seed=$RANDOM
-        aroptions="$aroptions -s $seed -o $BaseRandoDir/current/$seed.sfc '$ARRomPath'"
+        aroptions="$aroptions -s $seed -o $BaseRandoDir/current/$seed.sfc ar.sfc"
         echo "$aroptions"
 }
 bof3vv_options(){
@@ -235,7 +235,9 @@ ar(){
         cd randomizers/actraiser-randomizer/
         setupPythonEnv
         actraiser_optionstring
+        cp $ARRomPath ./ar.sfc
         python actraiser_randomizer.py $aroptions
+        rm ar.sfc
         cd ../../
         deactivate
         SystemForAutoLaunch=SNES
