@@ -1,0 +1,2 @@
+enemy_indexes,3,list
+counts,2,list

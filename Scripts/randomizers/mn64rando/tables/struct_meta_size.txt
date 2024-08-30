@@ -1,0 +1,2 @@
+unknown,5,str
+metasize_str,3,str

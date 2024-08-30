@@ -1,0 +1,43 @@
+{
+  "leftEnemizerFrame": {
+    "enemyshuffle": {
+      "type": "selectbox",
+      "options": [
+        "none",
+        "shuffled",
+        "random",
+        "legacy"
+      ]
+    },
+    "bossshuffle": {
+      "type": "selectbox",
+      "options": [
+        "none",
+        "simple",
+        "full",
+        "unique",
+        "random"
+      ]
+    }
+  },
+  "rightEnemizerFrame": {
+    "enemydamage": {
+      "type": "selectbox",
+      "options": [
+        "default",
+        "shuffled",
+        "random"
+      ]
+    },
+    "enemyhealth": {
+      "type": "selectbox",
+      "options": [
+        "default",
+        "easy",
+        "normal",
+        "hard",
+        "expert"
+      ]
+    }
+  }
+}

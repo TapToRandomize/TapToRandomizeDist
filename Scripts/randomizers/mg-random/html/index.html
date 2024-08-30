@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'/>
+		<title>Metal Gear Randomizer</title>
+		<script type='application/javascript'>
+			function update_link(change_show) {
+				var link = 'random.rom';
+				var e = document.getElementById('rom');
+				var d = document.getElementById('doors');
+				var s = document.getElementById('showdoor');
+				var x = document.getElementById('extreme');
+				if (s.value == 'true' && e.value != 'English (original)') {
+					console.info(e.value);
+					if (change_show)
+						e.options[0].selected = true;
+					else
+						s.options[0].selected = true;
+					alert('Showing doors is only supported with the original English rom; setting changed to make it work.');
+				}
+				link += '?rom=' + e.value + '&doors=' + d.value + '&showdoor=' + s.value + '&extreme=' + x.value;
+				document.getElementById('link').href = link;
+			}
+		</script>
+	</head>
+	<body onload='update_link()'>
+		<h1>Metal Gear Randomizer</h1>
+		<ul>
+			<li>
+				Base ROM image:
+				<select onchange='update_link()' name='rom' id='rom'>
+					<option value='English (original)' selected='selected'>English (original)</option>
+					<option value='English (alternative)'>English (alternative)</option>
+					<option value='Japanese'>Japanese</option>
+				</select>
+			</li>
+			<li>
+				Door handling:
+				<select onchange='update_link()' name='doors' id='doors'>
+					<option value='keep' selected='selected'>Don't change</option>
+					<option value='close'>Close</option>
+					<option value='open'>Leave open</option>
+				</select>
+			</li>
+			<li>
+				Door code showing:
+				<select onchange='update_link(true)' name='doors' id='showdoor'>
+					<option value='false' selected='selected'>No</option>
+					<option value='true'>Yes</option>
+				</select>
+				(Only works with original English ROM image.)
+			</li>
+			<li>
+				Extreme mode:
+				<select onchange='update_link(true)' name='extreme' id='extreme'>
+					<option value='false' selected='selected'>No</option>
+					<option value='true'>Yes</option>
+				</select>
+			</li>
+			<li><a id='link' href='random.rom'>Generate</a></li>
+		</ul>
+		<div>
+			<h2>Note</h2>
+			For this site to work, the server that generates the new ROM images must be running. Because it isn't automatically restarted when the machine reboots, that may not always be the case. If it isn't working, please try one of these options:
+			<ol>
+				<li>Download the code from <a href='https://github.com/wijnen/mgrandom/'>github</a> and run it yourself. This probably requires you to run a GNU/Linux system.</li>
+				<li>Send an email to <a href='mailto:wijnen@debian.org'>Bas</a> asking to restart the server.</li>
+			</ol>
+		</div>
+	</body>
+</html>

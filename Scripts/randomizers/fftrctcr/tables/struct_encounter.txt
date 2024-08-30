@@ -1,0 +1,13 @@
+scenario,2
+map_index,1
+weather,1
+night,1
+music,2,list
+entd_index,2
+formation_indexes,2x2,list
+unknown0,4
+ramza,1
+next_scene,2
+following,1
+unknown1,1
+conditional_index,2

@@ -1,0 +1,137 @@
+{
+  "checkboxes": {
+    "retro": { "type": "checkbox" },
+    "bombbag": { "type": "checkbox" },    
+    "shopsanity": { "type": "checkbox" },
+    "hints": {
+      "type": "checkbox"
+    },
+    "pseudoboots": { "type": "checkbox" }
+  },
+  "leftItemFrame": {
+    "worldstate": {
+      "type": "selectbox",
+      "default": "open",
+      "options": [
+        "standard",
+        "open",
+        "inverted",
+        "retro"
+      ]
+    },
+    "logiclevel": {
+      "type": "selectbox",
+      "options": [
+        "noglitches",
+        "minorglitches",
+        "owglitches",
+        "nologic"
+      ]
+    },
+    "goal": {
+      "type": "selectbox",
+      "options": [
+        "ganon",
+        "pedestal",
+        "dungeons",
+        "triforcehunt",
+        "trinity",
+        "crystals"
+      ]
+    },
+    "crystals_gt": {
+      "type": "selectbox",
+      "options": [
+        0, 1, 2, 3, 4, 5, 6, 7,
+        "random"
+      ]
+    },
+    "crystals_ganon": {
+      "type": "selectbox",
+      "options": [
+        0, 1, 2, 3, 4, 5, 6, 7,
+        "random"
+      ]
+    },
+    "weapons": {
+      "type": "selectbox",
+      "options": [
+        "random",
+        "assured",
+        "swordless",
+        "vanilla"
+      ]
+    },
+    "beemizer": {
+      "type": "selectbox",
+      "options": [
+        "0", "1", "2", "3", "4"
+      ]
+    }
+  },
+  "rightItemFrame": {
+    "itempool": {
+      "type": "selectbox",
+      "options": [
+        "normal",
+        "hard",
+        "expert"
+      ]
+    },
+    "itemfunction": {
+      "type": "selectbox",
+      "options": [
+        "normal",
+        "hard",
+        "expert"
+      ]
+    },
+    "timer": {
+      "type": "selectbox",
+      "options": [
+        "none",
+        "display",
+        "timed",
+        "timed-ohko",
+        "ohko",
+        "timed-countdown"
+      ]
+    },
+    "progressives": {
+      "type": "selectbox",
+      "options": [
+        "on",
+        "off",
+        "random"
+      ]
+    },
+    "accessibility": {
+      "type": "selectbox",
+      "options": [
+        "items",
+        "locations",
+        "none"
+      ]
+    },
+    "sortingalgo": {
+      "type": "selectbox",
+      "default": "balanced",
+      "options": [
+        "balanced",
+        "vanilla_fill",
+        "major_only",
+        "dungeon_only",
+        "district"
+      ]
+    },
+    "restrict_boss_items": {
+      "type": "selectbox",
+      "default": "none",
+      "options": [
+        "none",
+        "mapcompass",
+        "dungeon"
+      ]
+    }
+  }
+}

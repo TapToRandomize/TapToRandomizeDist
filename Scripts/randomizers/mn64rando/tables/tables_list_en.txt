@@ -1,0 +1,32 @@
+MetaSizeObject          struct_meta_size.txt            556cc   1312
+MapMetaObject           struct_map_meta_pointer.txt     57fd8   1312
+SaveWarpObject          struct_dragon_warp.txt          5c630   18
+DragonWarpObject        struct_dragon_warp.txt          6e010   16
+MessagePointerObject    struct_message_pointer.txt      785a0   794
+MessageFileObject       struct_message_file.txt         79208   794
+$file00b_ram_offset         1cb460  # Location in RAM where file 00a is
+$file00b_pointer_offset     2098dc  # Location of pointers to misc room data
+$file00b_idle_offset        209d24  # Location of table for map idle animations
+$file00c_ram_offset         20d2a0  # Location in RAM where file 00b is
+$file00c_efile_offset       2297d6  # Associated file for each entity
+$file00c_loading_bank       220000  # Bank of each room's loading files
+$file00c_pointer_offset     231300  # Pointers to room metadata
+$expected_data_end          fc8211
+$free_space_start           fc9000
+$free_space_end             ff7fff
+$seed_info_address          ff8000
+$current_ryo                8015c5e8
+$have_goemon                8015c69c
+$have_ebisumaru             8015c6a0
+$have_sasuke                8015c6a4
+$have_yae                   8015c6a8
+$have_bomb                  8015c6c4
+$have_flute                 8015c6c8
+$have_camera                8015c6d0
+$have_minimaru              8015c6f0
+$have_super_jump            8015c6f4
+$have_mermaid               8015c6f8
+$have_snow                  8015c864
+$have_oedo_town_warp        8015c8ac
+$custom_initialize_script   41881
+#.patch                      patch_no_checksum.txt

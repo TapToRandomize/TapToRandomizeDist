@@ -1,0 +1,260 @@
+[
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/io/graphviz_writer.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/io/graphviz_writer.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/io/graphviz_writer.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/io/graphviz_writer.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/io/model_writer.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/io/model_writer.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/io/model_writer.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/io/model_writer.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/io/world_json_writer.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/io/world_json_writer.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/io/world_json_writer.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/io/world_json_writer.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/io/world_json_parser.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/io/world_json_parser.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/io/world_json_parser.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/io/world_json_parser.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/logic_model/hint_source.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/hint_source.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/hint_source.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/logic_model/hint_source.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/logic_model/item_source.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/item_source.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/item_source.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/logic_model/item_source.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/logic_model/world_path.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/world_path.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/world_path.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/logic_model/world_path.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/logic_model/world_region.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/world_region.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/world_region.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/logic_model/world_region.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/logic_model/randomizer_world.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/randomizer_world.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/randomizer_world.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/logic_model/randomizer_world.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/patches/edit_content/patch_add_golas_heart.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/patches/edit_content/patch_add_golas_heart.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/patches/edit_content/patch_add_golas_heart.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/patches/edit_content/patch_add_golas_heart.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/patches/events/patch_secret_arg.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/patches/events/patch_secret_arg.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/patches/events/patch_secret_arg.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/patches/events/patch_secret_arg.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/patches/patches.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/patches/patches.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/patches/patches.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/patches/patches.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/tools/base64.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/tools/base64.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/tools/base64.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/tools/base64.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/apply_randomizer_options.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/apply_randomizer_options.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/apply_randomizer_options.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/apply_randomizer_options.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/personal_settings.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/personal_settings.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/personal_settings.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/personal_settings.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/randomizer_options.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/randomizer_options.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/randomizer_options.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/randomizer_options.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/world_shuffler.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/world_shuffler.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/world_shuffler.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/world_shuffler.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/world_solver.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/world_solver.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/world_solver.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/world_solver.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/standalone_logic_solver.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/standalone_logic_solver.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/standalone_logic_solver.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/standalone_logic_solver.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\" -I/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib -std=gnu++2a -o CMakeFiles/randstalker.dir/src/main.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/src/main.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/src/main.cpp",
+  "output": "CMakeFiles/randstalker.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/md_tools/code.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/md_tools/code.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/md_tools/code.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/md_tools/code.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/md_tools/rom.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/md_tools/rom.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/md_tools/rom.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/md_tools/rom.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/io/blocksets_decoder.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/blocksets_decoder.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/blocksets_decoder.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/io/blocksets_decoder.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/io/blocksets_encoder.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/blocksets_encoder.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/blocksets_encoder.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/io/blocksets_encoder.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/io/exports.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/exports.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/exports.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/io/exports.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/io/map_layout_decoder.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/map_layout_decoder.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/map_layout_decoder.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/io/map_layout_decoder.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/io/map_layout_encoder.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/map_layout_encoder.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/map_layout_encoder.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/io/map_layout_encoder.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/io/map_layout_new_encoder.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/map_layout_new_encoder.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/map_layout_new_encoder.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/io/map_layout_new_encoder.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/io/world_rom_reader.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/world_rom_reader.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/world_rom_reader.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/io/world_rom_reader.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/io/world_rom_writer.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/world_rom_writer.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/world_rom_writer.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/io/world_rom_writer.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/io/textbanks_decoder.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/textbanks_decoder.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/textbanks_decoder.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/io/textbanks_decoder.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/io/textbanks_encoder.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/textbanks_encoder.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/io/textbanks_encoder.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/io/textbanks_encoder.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/tools/bitstream_reader.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/bitstream_reader.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/bitstream_reader.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/tools/bitstream_reader.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/tools/color.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/color.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/color.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/tools/color.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/tools/game_text.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/game_text.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/game_text.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/tools/game_text.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/tools/lz77.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/lz77.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/lz77.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/tools/lz77.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/tools/sprite.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/sprite.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/sprite.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/tools/sprite.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/tools/lodepng.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/lodepng.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/tools/lodepng.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/tools/lodepng.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/model/entity_type.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/model/entity_type.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/model/entity_type.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/model/entity_type.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/model/entity.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/model/entity.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/model/entity.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/model/entity.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/model/item.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/model/item.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/model/item.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/model/item.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/model/map.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/model/map.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/model/map.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/model/map.cpp.o"
+},
+{
+  "directory": "/home/akerasi/TapToRandomize/vendor/randstalker/build/landstalker_lib",
+  "command": "/usr/bin/c++ -DMAJOR_RELEASE=18 -DRELEASE=\\\"1.8.1\\\"  -std=gnu++2a -o CMakeFiles/landstalker_lib.dir/model/world.cpp.o -c /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/model/world.cpp",
+  "file": "/home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/model/world.cpp",
+  "output": "landstalker_lib/CMakeFiles/landstalker_lib.dir/model/world.cpp.o"
+}
+]

@@ -1,0 +1,82 @@
+{
+  "widgets": {
+    "dungeondoorshuffle": {
+      "type": "selectbox",
+      "default": "basic",
+      "options": [
+        "vanilla",
+        "basic",
+        "crossed"
+      ]
+    },
+    "dungeonintensity": {
+      "type": "selectbox",
+      "default": "2",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "random"
+      ],
+      "config": {
+        "width": 45
+      }
+    },
+    "keydropshuffle": { "type": "checkbox" },
+    "pottery": {
+      "type": "selectbox",
+      "default": "none",
+      "options": [
+        "none",
+        "keys",
+        "cave",
+        "cavekeys",
+        "reduced",
+        "clustered",
+        "nonempty",
+        "dungeon",
+        "lottery"
+      ],
+      "config": {
+        "width": 35
+      }
+    },
+    "colorizepots": { "type": "checkbox" },
+    "dropshuffle": { "type": "checkbox" },
+    "potshuffle": { "type": "checkbox" },
+    "experimental": { "type": "checkbox" },
+    "dungeon_counters": {
+      "type": "selectbox",
+      "default": "default",
+      "options": [
+        "default",
+        "off",
+        "on",
+        "pickup"
+      ]
+    },
+    "mixed_travel": {
+      "type" : "selectbox",
+      "default": "prevent",
+      "options": [
+        "prevent",
+        "allow",
+        "force"
+      ],
+      "config": {
+        "width": 35
+      }
+    },
+    "standardize_palettes" : {
+      "type": "selectbox",
+      "default": "standardize",
+      "options": [
+        "standardize",
+        "original"
+      ],
+      "config": {
+        "width": 35
+      }
+    }
+  }
+}

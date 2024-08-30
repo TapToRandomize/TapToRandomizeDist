@@ -1,0 +1,35 @@
+{
+  "widgets": {
+    "openpyramid":      { "type": "checkbox" },
+    "shuffleganon":     { "type": "checkbox" },
+    "entranceshuffle":  {
+      "type": "selectbox",
+      "options": [
+        "vanilla",
+        "simple",
+        "restricted",
+        "full",
+        "crossed",
+        "insanity",
+        "restricted_legacy",
+        "full_legacy",
+        "madness_legacy",
+        "insanity_legacy",
+        "dungeonsfull",
+        "dungeonssimple"
+      ]
+    },
+    "shufflelinks":     { "type": "checkbox" },
+    "overworld_map": {
+      "type": "selectbox",
+      "options": [
+        "default",
+        "compass",
+        "map"
+      ],
+      "config": {
+        "width": 45
+      }
+    }
+  }
+}

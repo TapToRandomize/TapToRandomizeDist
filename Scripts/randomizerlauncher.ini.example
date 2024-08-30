@@ -1,0 +1,219 @@
+
+#Base directories for various things. Note that platform dirs are after BaseGameDir.
+RandomizerBasedir=/media/fat/Scripts/randomizers
+BaseGameDir=/media/fat/cifs/games
+BaseYamlDir=$RandomizerBasedir/yamls
+BaseSnesDir=SNES
+BaseNesDir=NES
+BaseGameboyDir=GAMEBOY
+BaseGBADir=GBA
+BaseN64Dir=N64
+BaseGenesisDir=Genesis
+BaseSMSDir=SMS
+BasePSXDir=PSX
+BaseMSXDir=MSX
+TmpDir=$RandomizerBasedir/taptorandomizetmp
+ArchipelagoDir=$RandomizerBasedir/archipelago-0.5.0-MiSTerFPGA
+HostYamlPath=$RandomizerBaseDir/yamls/host.yaml
+
+#Solar Jetman (https://github.com/akerasi/SJ-rando) options
+SolarJetmanRandoDir=SolarJetmanRando
+SolarJetmanRom='/media/fat/cifs/games/NES/randoroms/Solar Jetman - Hunt for the Golden Warpship (USA).nes'
+SolarJetmanRandomizeAstronaut=0 #Randomize Astronaut Properties
+SolarJetmanRandomizePod=0 #Randomize Pod Properties
+#These next two are mutually exclusive; both can be off, but only one can be on. As such, we ignore the With Logic if we're on without.
+SolarJetmanRandomizeItems=1 #Randomize Items (with no logic)
+SolarJetmanRandomizeItemsWithLogic=0 #Randomize Items With Logic (experimental, doesn't always work)
+SolarJetmanRandomizePallette=1 #Randomize color pallettes, no checking for not hideous
+SolarJetmanLateral=0 #Lateral mode (to be honest, even I am not sure what it's supposed to be)
+SolarJetmanSeed=-1 #If set to a value other than -1. use that seed for randomization
+SolarJetmanMode=normal #valid modes are normal, reckless, and goldhunt. reckless turns off lots of collision, goldhunt makes fuel not a thing
+
+#Archipelago-imported randomizer options
+#ALTTP-Archipelago options
+ALTTPRandoDir=ALTTPRando
+ALTTPPlayerDir=alttp
+
+#DKC3-Archipelago options
+DKC3RandoDir=DKC3Rando
+DKC3PlayerDir=dkc3
+
+#CV64-Archipelago options
+CV64RandoDir=CV64Rando
+CV64PlayerDir=cv64
+
+#KDL3-Archipelago options
+KDL3RandoDir=KDL3Rando
+KDL3PlayerDir=kdl3
+
+
+#LOZ-Archipelago options
+LOZRandoDir=LOZRando
+LOZPlayerDir=loz
+
+#L2AC-Archipelago options
+L2RandoDir=L2Rando
+L2PlayerDir=lufia2
+
+#MMBN3-Archipelago options
+MMBN3RandoDir=MMBN3Rando
+MMBN3PlayerDir=mmbn3
+
+#PokeEmerald-Archipelago options (currently disabled as not yet functional)
+#PokeERandoDir=PokemonEmeraldRando
+#PokeEPlayerDir=pokemonemerald
+
+#OOT-Archipelago options (currently disabled as not yet functional)
+#OOTRandoDir=OOTRando
+#OOTPlayerDir=oot
+
+#PokeRB-Archipelago options
+PokeRBRandoDir=PokeRBRando
+PokeRBPlayerDir=pokemonrb
+
+
+#SMW-Archipelago options
+SMWRandoDir=SMWRando
+SMWPlayerDir=smw
+
+
+#SMZ3-Archipelago options
+SMZ3RandoDir=SMZ3Rando
+SMZ3PlayerDir=smz3
+
+
+#SoE-Archipelago options
+SOERandoDir=SOERando
+SOEPlayerDir=soe
+
+
+#SM-Archipelago options
+SMRandoDir=SMRando
+SMPlayerDir=supermetroid
+
+
+#SMW2-Archipelago options
+SMW2RandoDir=YIRando
+SMW2PlayerDir=yoshi
+
+
+#YGO-Archipelago options
+YGORandoDir=YGORando
+YGOPlayerDir=yugioh
+
+
+#Zillian-Archipelago options
+ZillionRandoDir=ZillionRando
+ZillionPlayerDir=zillion
+
+#Dragon Quest 3 options
+DQ3RandoDir=DQ3Rando
+DQ3RomPath=/media/fat/cifs/games/SNES/randoroms/dq3.smc
+
+#Circle of the Moon options
+COTMRandoDir=COTMRando
+COTMRomPath='/media/fat/cifs/games/GBA/randoroms/cotm.gba'
+COTMignoreCleansing=0 
+COTMapplyAutoRunPatch=0 
+COTMapplyNoDSSGlitchPatch=0 
+COTMapplyAllowSpeedDash=0 
+COTMbreakIronMaidens=0 
+COTMlastKeyRequired=0 
+COTMlastKeyAvailable=0 
+COTMapplyBuffFamiliars=0 
+COTMapplyBuffSubweapons=0 
+COTMapplyShooterStrength=0 
+COTMdoNotRandomizeItems=0 
+COTMRandomItemHardMode=0 
+COTMhalveDSSCards=0 
+COTMcountdown=0 
+COTMsubweaponShuffle=0 
+COTMnoMPDrain=0 
+COTMallBossesRequired=0 
+COTMdssRunSpeed=1 
+COTMskipCutscenes=1 
+COTMskipMagicItemTutorials=0 
+
+#Actraiser Randomizer options
+ARRomPath='/media/fat/cifs/games/SNES/randoroms/ar.sfc'
+ARRandoDir=ARRando
+ARExtraLives=0
+ARUnlimitedLives=0
+ARDeathCount=1
+ARSwordUpgrade=0
+ARMarhana='N'
+ARBossRush='C'
+
+#Breath of Fire 3 Vast Violence options
+BOF3Abilities=1
+BOF3Characters=1
+BOF3Enemies=0
+BOF3DragonLoc=0
+BOF3Masters=0
+BOF3Items=1
+BOF3Shops=1
+BOF3Treasure=1
+BOF3RandoDir=BOF3Rando
+BOF3RomPath='/media/fat/cifs/games/PSX/randoroms/bof3.iso'
+
+#Final Fantasy Legend 2 options
+FFL2Evolutions=1
+FFL2Formations=1
+FFL2Items=1
+FFL2MonsterSkills=1
+FFL2MonsterStats=1
+FFL2MutantSkills=1
+FFL2Shops=1
+FFL2Treasure=1
+FFL2RomPath='/media/fat/cifs/GAMEBOY/randoroms/ffl2.gb'
+FFL2RandoDir=FFL2Rando
+
+#Final Fantasy Tactics options
+FFTAbilities=1
+FFTMusic=0
+FFTFormations-1
+FFTJobInnates=1
+FFTJobStats=1
+FFTShop=1
+FFTMaps=1
+FFTJobRequirements=1
+FTJobSkillsets=1
+FFTTrophies=1
+FFTUnits=1
+FFTWeapons=1
+FFTStatus=1
+FFTRomPath='/media/fat/cifs/PSX/randoroms/fft.iso'
+FFTRandoDir=FFTRando
+
+#Metal Gear options
+MGRomPath='/media/fat/cifs/games/NES/randoroms/mg.nes'
+MGRandoDir=MGRando
+
+#Mythical Ninja64 options: Note this haa its own options file! 
+#mn64_settings.yaml is the file, there's also a copy of an example version in the randomizers/mn64rando directory.
+MN64RomPath='/media/fat/cifs/games/N64/randoroms/mn64.z64'
+MN64RandoDir=MN64Rando
+
+#Landstalker options; for more fine grained options, edit the presets
+LandstalkerRandoDir=LandstalkerRando
+LandstalkerRomPath='/media/fat/cifs/games/Genesis/randoroms/landstalker.md'
+LandstalkerPreset='default.json'
+
+#Shadowrun options
+ShadowrunRomPath='/media/fat/cifs/games/SNES/randoroms/sr.smc'
+ShadowrunRandoDir=ShadowrunRando
+
+#ALTTP Door Randomizer options
+ALTTPDRandoDir=ALTTPDoorRando
+ALTTPDRomPath='/media/fat/cifs/games/SNES/randoroms/alttp.smc'
+
+#Golden Sun options
+GSRandoDir=GSRando
+GSRomPath='/media/fat/cifs/games/GBA/randoroms/gs.gba'
+
+#Link's Awakening DX options
+LADXRandoDir=LADXRando
+LADXRomPath='/media/fat/cifs/games/GAMEBOY/randoroms/ladx.gbc'
+
+#Number of seeds to keep by default.
+KeepSeeds=3

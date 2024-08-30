@@ -1,0 +1,1162 @@
+0x064:
+  name:       Unknown (Something related to large maps?)
+
+0x07f:
+  name:       Fire
+
+0x080:
+  name:       Smoke Cloud
+
+0x081:
+  name:       Ryo (Drops down, unused)
+
+0x082:
+  name:       Ryo
+  size:
+    index:    4
+    0x00:     Giant
+    0x01:     Normal
+
+0x083:
+  name:       Giant Ryo (Drops down, unused)
+
+0x084:
+  name:       Dango 084
+
+0x085:
+  name:       Gold Dango
+
+0x086:
+  name:       Mr. Elly Fant
+  flag:
+    index:    [4, 5]
+
+0x087:
+  name:       Mr. Arrow
+  flag:
+    index:    [4, 5]
+
+0x088:
+  name:       Silver Doll
+  flag:
+    index:    [4, 5]
+
+0x089:
+  name:       Gold Doll
+  flag:
+    index:    [4, 5]
+
+0x08a:
+  name:       Shop Wares
+  item_type:
+    index:      11
+    0x00:       Surprise Pack / Sombrero
+    0x01:       Metal Helmet / Chanpon Noodles
+    0x02:       Gold Helmet
+    0x03:       Straw Raincoat / Orange
+    0x04:       Metal Armor
+    0x05:       Gold Armor / Noodles
+    0x06:       Rice Ball / Rice Crackers
+    0x07:       Plum Rice Ball / Fresh Bonito
+    0x08:       Fish Rice Ball / Sauced Dumplings
+    0x09:       Apple
+    0x0a:       Hot Tofu
+    0x0b:       Bowl of Noodles
+    0x0d:       Kiritanpo
+    0x0e:       Sponge Cake
+    0x10:       Round Radish
+  selection:
+    index:      15
+
+0x08b:
+  name:       Sign
+  message:
+    index:      [10, 11]
+
+0x08c:
+  name:       Exit
+  dest_room:
+    index:      [4, 5]
+  dest_x:
+    index:      [6, 7]
+  dest_z:
+    index:      [8, 9]
+  dest_y:
+    index:      [10, 11]
+  direction:
+    index:      [12, 13]
+    0x000:      East
+    0x100:      North
+    0x200:      West
+    0x300:      South
+  misc_exit_id:
+    index:      14
+  misc_unknown:
+    index:      15
+
+0x08e:
+  name:       Death Boundary
+
+0x08f:
+  name:       Dango 08f
+
+0x090:
+  name:       Unknown (Appears on maps with partitions/walls?)
+
+0x091:
+  name:       Surprise Pack (Extra Life)
+  flag:
+    index:    [4, 5]
+
+0x0ca:
+  name:       Congo's Hand
+
+0x0cb:
+  name:       Ghost Robot Tsurami
+
+0x0cc:
+  name:       Darumanyo Boss Event Trigger 1
+
+0x0ce:
+  name:       Congo Boss Event Trigger
+
+0x0cf:
+  name:       Darumanyo Boss Event Trigger 2
+
+0x0fa:
+  name:       Robot Bee
+
+0x0fb:
+  name:       Pink Robot FB
+
+0x0fc:
+  name:       Pink Robot FC
+
+0x0fd:
+  name:       Green Robot FD
+
+0x0fe:
+  name:       Green Robot FE
+
+0x0ff:
+  name:       Big Swatting Robot
+
+0x100:
+  name:       Blue Robot
+
+0x102:
+  name:       Slinky Enemy (Mt. Fuji)
+
+0x103:
+  name:       Scarecrow Bot
+
+0x104:
+  name:       Can-can Legs
+
+0x105:
+  name:       Flatfish (Tosa Bridge)
+
+0x106:
+  name:       Helicopter Kite
+
+0x107:
+  name:       Bamboo Shooter
+
+0x10a:
+  name:       Big Swatting Robot Red
+
+0x108:
+  name:       Jet Robot
+
+0x109:
+  name:       Yellow Robot
+
+0x10b:
+  name:       Shrinking Robot
+
+0x10c:
+  name:       Sword Robot
+
+0x10f:
+  name:       Can Can Legs (1x, unused)
+
+0x110:
+  name:       Pink Robot 110 (Festival Temple & Hagi)
+
+0x12c:
+  name:       Small Cannon
+
+0x12d:
+  name:       Flying Dragon Head
+
+0x12e:
+  name:       Seahorse
+
+0x12f:
+  name:       Spiny Sea Urchin
+
+0x130:
+  name:       Drum Robot
+
+0x131:
+  name:       Triangle Robot
+
+0x132:
+  name:       Bouncing Darumanyo
+
+0x133:
+  name:       Paper Ghost
+
+0x134:
+  name:       Dango Stick Wipers
+
+0x136:
+  name:       Red Eye Fish
+
+0x13a:
+  name:       Tank
+
+0x13b:
+  name:       Spiny Sea Urchin (Kii-Awaji)
+
+0x13c:
+  name:       Giant Enemy Crab
+
+0x13d:
+  name:       Samurai
+
+0x13e:
+  name:       Rose Robot
+
+0x13f:
+  name:       Hammer Thrower
+
+0x140:
+  name:       Fire Stalker
+
+0x141:
+  name:       Ninja
+
+0x142:
+  name:       Sweets Minigame
+
+0x144:
+  name:       Burrowing Robot
+
+0x145:
+  name:       Kite
+
+0x146:
+  name:       Drum Robot (Unused)
+
+0x147:
+  name:       Bomber Bird
+
+0x148:
+  name:       Water Snake
+
+0x149:
+  name:       Dango Stick Wipers (Spawners)
+
+0x190:
+  name:       Flying Tile
+
+0x191:
+  name:       Rolling Boulder (Unused)
+
+0x192:
+  name:       Pot
+  num_spawn:
+    index:      [4, 5]
+  spawn_id:
+    index:      11
+    0x81:       Ryo
+    0x8f:       Dango
+
+0x193:
+  name:       Key
+  enemies:
+    index:      4
+  key_type:
+    index:      5
+    0x0:        Silver
+    0x1:        Gold
+    0x2:        Diamond
+  key_index:
+    index:      [8, 9]
+
+0x195:
+  name:       Ghost Toys Torch
+
+0x196:
+  name:       Star Block
+
+0x197:
+  name:       Crusher
+
+0x198:
+  name:       Spike Chain
+
+0x19a:
+  name:       Falling Barrel
+
+0x19d:
+  name:       Slicer (Musical Castle 1)
+
+0x19e:
+  name:       Fan Platform (Spreading)
+
+0x19f:
+  name:       Fan Platform (Rotating)
+
+0x1a1:
+  name:       Drum Platform
+
+0x1a3:
+  name:       Treadmill (Musical Castle 2)
+
+0x1a6:
+  name:       Fox Mask
+
+0x1a9:
+  name:       Falling Bomb Block
+
+0x1aa:
+  name:       Jump Rope (Ghost Toys)
+
+0x1ab:
+  name:       Glitchy Spike Chain Spikes (Unused)
+
+0x1ad:
+  name:       Sweets from Sweets Minigame (Unused)
+
+0x1ae:
+  name:       Giant Portrait Casting a Shadow (Unused, sweets minigame?)
+
+0x1b0:
+  name:       Mind-Control Robot (Required to not freeze dragonback cutscenes)
+
+0x1b1:
+  name:       Huge Shadow (Unused, sweets minigame?)
+
+0x1b2:
+  name:       High Jump Minigame
+
+0x1b6:
+  name:       Robot Bee Spawner
+
+0x1b9:
+  name:       Crane Game Crane & Glass
+
+0x1ba:
+  name:       Crane Game Power Switch
+
+0x1bb:
+  name:       Crane Game Control Panel
+
+0x1bc:
+  name:       Sudden Impact Minigame
+
+0x1bd:
+  name:       Billiard Balls (all of them)
+
+0x1be:
+  name:       Billiard Ball (Unused)
+
+0x1bf:
+  name:       Crane Game Fixed POV
+
+0x1c0:
+  name:       Benkei
+
+0x1f4:
+  name:       Platform (Stationary)
+
+0x1f5:
+  name:       Platform (Stationary, unused)
+
+0x1f7:
+  name:       Turtle Pad
+
+0x1fc:
+  name:       Elevator
+
+0x1fd:
+  name:       Shogi Platform
+
+0x1fe:
+  name:       Hot Platform
+
+0x226:
+  name:       Switch
+  flag:
+    index:    [4, 5]
+
+0x228:
+  name:       Moving Platform (Horizontal)
+
+0x23a:
+  name:       Divider Wall 23a
+  exit_id:
+    index:      13
+
+0x23b:
+  name:       Divider Wall 23b
+  exit_id:
+    index:      13
+
+0x23c:
+  name:       Double Sliding Door (Oedo Castle)
+  door_design:
+    index:      4
+    0x0:        Oedo Castle
+    0x1:        Swing Door
+  exit_id:
+    index:      13
+
+0x23d:
+  name:       Bombable Wall
+  exit_id:
+    index:      13
+
+0x23e:
+  name:       Locked Door
+  door_design:
+    index:      4
+    0x0:        Oedo Castle
+    0x1:        Ghost Toys 1
+    0x2:        Ghost Toys 2
+    0x3:        Festival Temple
+    0x4:        Gourmet Submarine 1
+    0x5:        Bizen
+    0x6:        Musical Castle 1
+    0x7:        Musical Castle 2
+    0x8:        Gourmet Submarine 2
+  key_type:
+    index:      5
+    0x0:        Diamond
+    0x1:        Gold
+    0x2:        Silver
+    0x3:        Special
+  lock_index:
+    index:      [8, 9]
+  accept_key:
+    index:      [10, 11]
+  exit_id:
+    index:      13
+
+0x23f:
+  name:       Door (Musical Castle)
+  door_design:
+    index:      4
+    0x0:        Musical Castle 1 (Single Slide)
+    0x1:        Musical Castle 1 (Double Slide)
+    0x2:        Musical Castle 2 (Normal)
+    0x3:        Musical Castle 2 (Blue)
+    0x5:        Musical Castle 2 (Portrait)
+  exit_id:
+    index:      13
+
+0x240:
+  name:       Door to Musashi
+  exit_id:
+    index:      13
+
+0x241:
+  name:       Swing Door 241
+  graphic:
+    index:      4
+  exit_id:
+    index:      13
+
+0x242:
+  name:       Swing Door 242
+  graphic:
+    index:      4
+  exit_id:
+    index:      13
+
+0x243:
+  name:       Small Wooden Box (Carryable, unused)
+
+0x244:
+  name:       Large Wooden Box (Pushable, unused)
+
+0x245:
+  name:       Metal Box
+
+0x246:
+  name:       Unknown (Oedo Castle Entrance)
+
+0x249:
+  name:       The Water (Husband and Wife Rocks)
+
+0x24c:
+  name:       Wiseman's House / Impact Boss Trigger (Iga)
+
+0x24d:
+  name:       Sliding Door 24d
+  graphic:
+    index:      4
+  exit_id:
+    index:      13
+
+0x255:
+  name:       Lord of Oedo Castle Event Trigger
+
+0x256:
+  name:       Sliding Door 256
+  exit_id:
+    index:      13
+
+0x257:
+  name:       Yae Introduction Event Trigger
+
+0x287:
+  name:       Water
+
+0x288:
+  name:       Waterfall Mist
+
+0x289:
+  name:       Waterfall Ripple
+
+0x28b:
+  name:       Unknown (Kai Highway)
+
+0x28d:
+  name:       Falling Snow Weather Effect
+
+0x28f:
+  name:       Ushiwaka
+  message:
+    index:      [10, 11]
+
+0x290:
+  name:       Tiny Ushiwaka (Golden Temple)
+  message:
+    index:      [10, 11]
+
+0x291:
+  name:       Priest (Golden Temple)
+  message:
+    index:      [10, 11]
+
+0x2a0:
+  name:       Dragonback Cutscene Triggers (all of them)
+
+0x2bd:
+  name:       Dog
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+  hidden:
+    index:      15
+    0x0:        No
+    0x1:        Yes
+
+0x2be:
+  name:       Old Man
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2bf:
+  name:       Boy
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2c0:
+  name:       Purple Woman
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2c1:
+  name:       Girl
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2c2:
+  name:       Happy Brown Man
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2c3:
+  name:       Happy Brown Man (Glitchy, unused)
+
+0x2c4:
+  name:       Thief
+  message:
+    index:      [10, 11]
+  hidden:
+    index:      15
+    0x0:        No
+    0x1:        Yes
+
+0x2c5:
+  name:       Hiker
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2c6:
+  name:       Middle Aged Brown Man
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+  hidden:
+    index:      15
+    0x0:        No
+    0x1:        Yes
+
+0x2c7:
+  name:       Blue Man
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2c8:
+  name:       Red Woman
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2c9:
+  name:       Running Man
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2ca:
+  name:       Farmer
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2cb:
+  name:       Ronin
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2cc:
+  name:       Guard
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2cd:
+  name:       Gatekeeper with lantern (unused)
+
+0x2ce:
+  name:       Young Woman
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2d0:
+  name:       Guard (Gatekeeper)
+  message:
+    index:      [10, 11]
+
+0x2d3:
+  name:       Lord of Oedo
+  message:
+    index:      [10, 11]
+
+0x2d4:
+  name:       Princess Yuki
+  message:
+    index:      [10, 11]
+
+0x2d7:
+  name:       Oedo Castle Baron Event Trigger
+
+0x2d8:
+  name:       Boy (Folkypoke)
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2d9:
+  name:       Girl (Folkypoke)
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2dc:
+  name:       Credits Sequence
+
+0x2ee:
+  name:       Message on Transition (Other -> MACHI/SHOP)
+  message:
+    index:      11
+    0x8b:       Oedo
+    0x8c:       Zazen
+    0x8d:       Folkypoke
+    0x8e:       Festival Village
+
+0x2f5:
+  name:       Plasma Backup Dancer
+  message:
+    index:      [10, 11]
+
+0x2f6:
+  name:       Chef (Deals contact damage)
+
+0x2f7:
+  name:       Woman at Tourism Center with Rice Ball
+  message:
+    index:      [10, 11]
+
+0x2f8:
+  name:       Drunk
+  message:
+    index:      [10, 11]
+
+0x2f9:
+  name:       Sleeping Woman
+  message:
+    index:      [10, 11]
+
+0x2fa:
+  name:       Kneeling Woman (unused?)
+  message:
+    index:      [10, 11]
+
+0x2fb:
+  name:       Kneeling Woman with Fan (from inn)
+  message:
+    index:      [10, 11]
+
+0x2fc:
+  name:       Shopkeeper
+  message:
+    index:      [10, 11]
+
+0x2fd:
+  name:       Old Woman
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x2fe:
+  name:       Tour Guide
+  message:
+    index:      [10, 11]
+
+0x2ff:
+  name:       Man in Blue Kimono (unused)
+  message:
+    index:      [10, 11]
+
+0x300:
+  name:       Priest
+  message:
+    index:      [10, 11]
+
+0x301:
+  name:       Restaurant Hostess
+  message:
+    index:      [10, 11]
+
+0x302:
+  name:       Inn Keeper
+  message:
+    index:      [10, 11]
+
+0x304:
+  name:       Guardhouse Guard
+  message:
+    index:      [10, 11]
+
+0x305:
+  name:       Mokubei (Pipe maker)
+  message:
+    index:      [10, 11]
+
+0x306:
+  name:       Plasma
+  message:
+    index:      [10, 11]
+
+0x307:
+  name:       Gym Trainer
+  message:
+    index:      [10, 11]
+
+0x308:
+  name:       Fixed Camera Actor
+  zoom_width:
+    index:      [6, 7]
+
+0x309:
+  name:       Inn Cutscene
+
+0x30a:
+  name:       Tourism Center Teleport Machine
+
+0x30f:
+  name:       Dancin
+
+0x311:
+  name:       Musashi Bridge Invisible Wall
+
+0x315:
+  name:       Kappa Event Trigger
+
+0x316:
+  name:       Kyushu (All of it)
+
+0x319:
+  name:       Kompira Shrine Collection Box
+
+0x31d:
+  name:       Automatic Message
+  message:
+    index:      [10, 11]
+
+0x31e:
+  name:       Omitsu
+  message:
+    index:      [10, 11]
+
+0x31f:
+  name:       Double Cross Sliding Door (Festival Temple)
+  exit_id:
+    index:      13
+
+0x320:
+  name:       Festival Temple Fish Kite
+
+0x321:
+  name:       Door (Ghost Toys)
+  door_design:
+    index:      4
+    0x0:        Blue-Red Dither
+    0x1:        Blue-Yellow
+    0x2:        Red Enemy Unlockable
+  enemies:
+    index:      5
+  exit_id:
+    index:      13
+
+0x322:
+  name:       Ladder 322
+
+0x323:
+  name:       Congo
+
+0x324:
+  name:       Expanding Staircase Block
+
+0x325:
+  name:       Giant Boulder (Mt. Fear)
+
+0x326:
+  name:       Retractable Platform
+  flag:
+    index:      [8, 9]
+
+0x327:
+  name:       Sign & Mysterious Shadow (Mutsu Shoreline)
+  message:
+    index:      [10, 11]
+
+0x328:
+  name:       Stone Marker
+  message:
+    index:      [10, 11]
+
+0x329:
+  name:       The Turtle Rock
+
+0x32a:
+  name:       Translucent Wall
+
+0x32d:
+  name:       Inaba Battery
+
+0x32e:
+  name:       Hiker/Boy (Bizen Bridge)
+  pathing:
+    index:      [6, 7]
+  message:
+    index:      [10, 11]
+
+0x32f:
+  name:       Automatic Door (Gourmet Sub)
+  door_design:
+    index:      4
+    0x0:        Gourmet Submarine 1 (identical to 2)
+    0x1:        Gourmet Submarine 2 (identical to 1)
+  exit_id:
+    index:      13
+
+0x330:
+  name:       Glowing IN Sign
+
+0x331:
+  name:       Giant Turbine (Gourmet Sub)
+
+0x332:
+  name:       Treadmill (Gourmet Sub)
+
+0x334:
+  name:       Sushi Spawner (Gourmet Sub)
+
+0x335:
+  name:       Pemopemo God
+
+0x338:
+  name:       Zazen Fish
+  color:
+    index:    11
+    0x0:      Red
+    0x1:      Yellow
+    0x2:      Blue
+
+0x339:
+  name:       Enterable Submarine?
+
+0x33a:
+  name:       Sign (Waterfall of Kegon)
+
+0x33b:
+  name:       Ladder 33b
+
+0x33c:
+  name:       Ladder 33c
+
+0x33d:
+  name:       Message on Transition (Other -> SIRO)
+  message:
+    index:    11
+    0x90:     Oedo
+    0x91:     Ghost Toys
+    0x92:     Festival Temple
+    0x93:     Gourmet Sub?
+    0x94:     Musical Castle 1
+
+0x340:
+  name:       Door to Yamato Shrine
+  exit_id:
+    index:      13
+
+0x341:
+  name:       Torii Gate to Husband and Wife Rocks
+
+0x342:
+  name:       Torii Return Gate to Kii-Awaji Island
+
+0x343:
+  name:       Small Boat
+
+0x344:
+  name:       Unknown 344 (Mutsu Shoreline)
+
+0x345:
+  name:       Invisible Wall That Blocks Doors Until Event Conditions Are Met
+  flag:
+    index:      [8, 9]
+
+0x346:
+  name:       Witch
+  message:
+    index:      [10, 11]
+
+0x347:
+  name:       Eboshi Priest
+  message:
+    index:      [10, 11]
+
+0x348:
+  name:       Sogen Maze Gate
+
+0x349:
+  name:       Flame
+
+0x34a:
+  name:       Rotating Column Elevator
+
+0x34b:
+  name:       Door to Oedo Lord's Room
+  exit_id:
+    index:      13
+
+0x34e:
+  name:       Goemon's House Message
+
+0x34f:
+  name:       Unknown (Darumanyo Boss Room)
+
+0x354:
+  name:       Sliding Door Pink Robot Spawner
+
+0x355:
+  name:       Unknown (Kompira Mountain Base)
+
+0x356:
+  name:       Giant Kaleidoscope
+
+0x357:
+  name:       Tsurami Boss Trigger
+
+0x358:
+  name:       Unknown (Tsurami Boss Room)
+
+0x35c:
+  name:       The Gorgeous Stage
+
+0x35d:
+  name:       Gorgeous Performance Trigger
+
+0x35e:
+  name:       Unknown (Related to Ghost Toys spike floors?)
+
+0x35f:
+  name:       Miracle Moon
+
+0x362:
+  name:       Green Robot with Yellow Robot Blaster Box (unused)
+
+0x365:
+  name:       Giant Spinning Top (Ghost Toys)
+
+0x366:
+  name:       Spinning Rectangular Platform (Ghost Toys)
+
+0x36b:
+  name:       Unknown (Outside Oedo Castle)
+
+0x3b4:
+  name:       Fast Boat (Ghost Toys)
+
+0x3b5:
+  name:       Thaisamba Boss Trigger
+
+0x3b6:
+  name:       Unknown (Related to water in Ghost Toys?)
+
+0x3c4:
+  name:       False Floor (Ghost Toys)
+
+0x3c5:
+  name:       Invisible Path (Gourmet Sub)
+
+0x3c6:
+  name:       Ramen Bowl Platform (Gourmet Sub)
+
+0x3c7:
+  name:       Izumo Tree Battery?
+
+0x3c8:
+  name:       Ghost Toys Entrance Barricade
+  exit_id:
+    index:      13
+
+0x3c9:
+  name:       Unknown 3c9 (Mutsu Shoreline)
+
+0x3ca:
+  name:       Spike Floor (Ghost Toys)
+
+0x3cb:
+  name:       Festival Temple Accordion Stairs
+
+0x3cc:
+  name:       Minimap
+
+0x3d0:
+  name:       Blooming Flower (Ghost Toys)
+
+0x3d1:
+  name:       Floating Ingredients (Gourmet Sub)
+
+0x3d2:
+  name:       Meatsaw Hammer
+
+0x3d3:
+  name:       Wind-Up Camera
+
+0x3d4:
+  name:       Ice Kunai
+
+0x3d5:
+  name:       Yae Bazooka
+
+0x3d6:
+  name:       Shishi-odoshi
+
+0x3d9:
+  name:       Dim Lighting (Witch's House)
+
+0x3da:
+  name:       Boulder (Kompira Mountain)
+
+0x3dc:
+  name:       Unknown (Pipe Maker's House)
+
+0x3dd:
+  name:       Wise Old Man (Sogen Restaurant)
+  message:
+    index:      [10, 11]
+
+0x3de:
+  name:       Hot Floor Steam (Gourmet Sub)
+
+0x3e0:
+  name:       Moving Platform (Vertical or Rotating)
+
+0x3e1:
+  name:       Sound of Flowing Water (in Stereo!)
+
+0x3ea:
+  name:       Hot Spring Steam (Iyo)
+
+0x3ec:
+  name:       Unknown 3ec (Gourmet Sub)
+
+0x3ef:
+  name:       Spiny Urchin Spawner (Gourmet Sub)
+
+0x3f0:
+  name:       Waves Flooring (Musical Castle 1)
+
+0x3fc:
+  name:       Floor Flamethrower
+
+0x3fd:
+  name:       Residence Trough Contents?
+
+0x400:
+  name:       Secret Decorations (Goemon's House)
+
+0x401:
+  name:       Restaurant Patron or Prop
+  graphic:
+    index:      [6, 7]
+  dish:
+    index:      11

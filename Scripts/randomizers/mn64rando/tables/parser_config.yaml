@@ -1,0 +1,381 @@
+byte_order:                 "big"
+opcode_size:                4
+pointer_size:               3
+virtual_address:            0
+terminators:                [0x8008]
+text_terminators:           [0xffff]
+text_char_size:             2
+text_decode_table:
+  0x00d4:
+    expansion: "！\"#'*+,—./:="
+    increment: 1
+  0x00e0:
+    expansion: "？@。゛゜旅日記・決定×両必要数"
+    increment: 1
+  0x00f0:
+    expansion: "作成中削除見異常直一度最初始保存"
+    increment: 1
+  0x0100:
+    expansion: "本体（）込接続修復場合内消全電源"
+    increment: 1
+  0x0110:
+    expansion: "術江戸城町村山階視点切替北西東寺"
+    increment: 1
+  0x0120:
+    expansion: "連戦巨大【】前「、」下止［］行〜"
+    increment: 1
+  0x0130:
+    expansion: "入口水海人銀力金手花星火丸目時間"
+    increment: 1
+  0x0140:
+    expansion: "茶店方思来外子男♪国地九州女出社"
+    increment: 1
+  0x0150:
+    expansion: "員聞語卍長屋話家四文字川小池ヶ上"
+    increment: 1
+  0x0160:
+    expansion: "流回落石◯氷犬神名警告発生島木客"
+    increment: 1
+  0x0170:
+    expansion: "桜先向調艦愛夢仁王良早oingw"
+    increment: 1
+  0x0180:
+    expansion: "akehc野表示破損現犯"
+    increment: 1
+  0x0000:
+    #expansion: "0123456789-!?"
+    expansion: "０１２３４５６７８９-!?"
+    increment: 1
+  0x000d: "　"
+  0x000e:
+    expansion: "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんっゃゅょがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉ"
+    increment: 1
+  0x005e:
+    expansion: "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンッャュョガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォヴー"
+    increment: 1
+  0x00b0:
+    #expansion: "０１２３４５６７８９"
+    expansion: "0123456789"
+    increment: 1
+  0x00ba:
+    #expansion: "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ"
+    expansion: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    increment: 1
+  0xffb9: "{end}"
+  0xffba: "{begin}"
+  0xffc1: "{newwindow}"
+  0xffc2: "{waitinput}"
+  0xffc3: "{button}"
+  0xffc4: "{newline}"
+  0xffc7: "{/big}"
+  0xffc8: "{big}"
+  0xffcd: "{/blink}"
+  0xffce: "{blink}"
+  0xffdb: "{unknown-ffdb}"
+  0xffdc: "{em-green}"
+  0xffdd: "{em-blue}"
+  0xffde: "{em-red}"
+  0xffdf: "{em-yellow}"
+  0xffe0: "{/em}"
+  0xffff: "{endline}"
+
+prettify:
+  flag:
+    0x000: "Received Super Pass"
+    0x001: "Opened Super Pass Gate"
+    0x002: "Old Man in South Oedo"
+    0x003: "???"
+    0x004: "???"
+    0x005: "Dog in Northwest Oedo #1"
+    0x006: "Dog in Northwest Oedo #2"
+    0x007: "Spoke to Omitsu about UFO"
+    0x008: "Omitsu Fan"
+    0x009: "Received Map of Japan"
+    0x00a: "Heard about Zazen Dwarf"
+    0x00b: "Spoke to Kompira Priest"
+    0x00d: "Received Sasuke's #1 Battery"
+    0x00e: "Recruited Sasuke"
+    0x00f: "Received Cucumber"
+    0x010: "Received Chain Pipe"
+    0x011: "Mokubei Can Upgrade Weapons"
+    0x012: "Upgraded to Silver Weapons"
+    0x013: "Received Fire Ryo"
+    0x014: "Freed Koryuta the Dragon"
+    0x015: "Met Ghost of Wise Man"
+    0x016: "Spoke to Witch (But Didn't Pay)"
+    0x017: "Kyushu Disappeared"
+    0x018: "Defeated Dharmanyo"
+    0x01a: "Upgraded to Gold Weapons"
+    0x01b: "Viewed Sudden Impact Training Instructions"
+    0x01c: "Obtained Sudden Impact Magic"
+    0x01d: "Failed Mermaid Training"
+    0x01e: "Passed Mermaid Training"
+    0x01f: "Obtained Mermaid Magic"
+    0x020: "Obtained Super Jump Magic"
+    0x021: "Viewed Super Jump Training Instructions"
+    0x022: "Looking for Kihachi's Favorite Food"
+    0x023: "Heard about Kihachi from Benkei"
+    0x024: "Learned Kihachi's Favorite Food"
+    0x025: "Can Talk to Ushiwaka about Benkei"
+    0x026: "Rejected Priest's Training Offer"
+    0x027: "Obtained Key to Training from Priest"
+    0x028: "Ushiwaka Went to Golden Temple"
+    0x029: "Obtained Achilles' Heel"
+    0x02a: "Looking for Red Fish"
+    0x02b: "Looking for Yellow Fish"
+    0x02c: "Looking for Blue Fish"
+    0x02d: "Asked Ushiwaka Who He Is"
+    0x02e: "Passed Mini-Ebisu Training"
+    0x02f: "Failed Mini-Ebisu Training"
+    0x030: "Rejected Mini-Ebisu Training Offer"
+    0x031: "Obtained Mini-Ebisu Magic"
+    0x032: "Defeated Thaisamba"
+    0x033: "Defeated Benkei"
+    0x034: "Met Benkei"
+    0x035: "Obtained Miracle Snow"
+    0x036: "Obtained Mermaid Magic (Unused?)"
+    0x037: "Kihachi Will Give Favorite Food Hint"
+    0x038: "Kihachi Gave Favorite Food Hint"
+    0x03a: "Recruited Yae"
+    0x03b: "Spoke to Priest's Son"
+    0x03c: "Heard about Sudden Impact Training from Plasma"
+    0x03d: "Arrived at Folkypoke Tourist Center"
+    0x03e: "Saw a Cracked Door"
+    0x03f: "Heard about Inaba Desert Battery"
+    0x040: "Defeated Tsurami"
+    0x041: "Heard about Silver Weapons from Plasma"
+    0x042: "Plasma will tell you about Silver Weapons"
+    0x043: "Plasma told you to go to Festival Village once already"
+    0x044: "Plasma will tell you about the Waterfall of Kegon"
+    0x045: "Plasma will tell you to ask Benkei about Miracle Snow"
+    0x046: "Plasma has no more advice"
+    0x047: "Not Using a Memory Pak"
+    0x048: "Memory Pak Flag #1"
+    0x049: "Memory Pak Flag #2"
+    0x04a: "Memory Pak Flag #3"
+    0x04b: "Memory Pak Flag #4"
+    0x04c: "Memory Pak Flag #5"
+    0x04d: "Memory Pak Flag #6"
+    0x04e: "Strength Gauge is Increasing"
+    0x04f: "Cannot Catch More Blue Fish"
+    0x050: "Cannot Catch More Yellow Fish"
+    0x051: "Cannot Catch More Red Fish"
+    0x052: "Goemon Tenements Cousins #1"
+    0x053: "Goemon Tenements Cousins #2"
+    0x054: "Goemon Tenements Cousins #3"
+    0x055: "Goemon Tenements Cousins #4"
+    0x056: "Met Old Woman in Zazen Before Dharmanyo"
+    0x057: "Met Old Woman in Zazen After Dharmanyo"
+    0x058: "Met Old Woman in Zazen Before And After Dharmanyo"
+    0x059: "Obtained Reward from Old Woman in Zazen"
+    0x05a: "Buying 1st Item in Shop"
+    0x05b: "Buying 2nd Item in Shop"
+    0x05c: "Buying 3rd Item in Shop"
+    0x05d: "Using Tourism Service"
+    0x05e: "???"
+    0x05f: "Passed Sudden Impact Training"
+    0x060: "Failed Sudden Impact Training"
+    0x061: "Passed Super Jump Training"
+    0x062: "Failed Super Jump Training"
+    0x063: "Heard about Dragon Problem"
+    0x064: "Received Gratitude from Tourist Center"
+    0x065: "Talked to Son but Did Not Buy Cucumber"
+    0x066: "Heard about Wise Man Next Door from Omitsu"
+    0x067: "Lost to Benkei"
+    0x068: "Heard about Sasuke's Secret Shame from Witch"
+    0x069: "Won against Benkei Cutscene Flag"
+    0x06a: "Lost to Benkei Cutscene Flag"
+    0x06b: "Went to Outer Space"
+    0x06c: "Going to Outer Space"
+    0x06d: "Memory Pak Flag #7"
+    0x06e: "Spoke to Dancin Alnite"
+    0x06f: "Met Baron in Iga"
+    0x070: "After Dharmanyo Cutscene Flag #2"
+    0x071: "After Dharmanyo Cutscene Flag #3"
+    0x072: "After Dharmanyo Cutscene Flag #4"
+    0x073: "After Dharmanyo Cutscene Flag #1"
+    0x074: "After Tsurami Cutscene Flag"
+    0x075: "Gorgeous Stage Cutscene Flag #2"
+    0x076: "Gorgeous Stage Cutscene Flag #1"
+    0x077: "Sogen Girl Imitated Lily"
+    0x078: "Sogen Girl Imitated Dancin"
+    0x079: "Started Sudden Impact/Super Jump Minigame"
+    0x07a: "Started Benkei/Mermaid Minigame"
+    0x07b: "Attempted Fight Against Colon's Mind Control Machine"
+    0x07c: "Witch Cutscene Flag #1"
+    0x07d: "Started Mini-Ebisu Minigame"
+    0x07e: "Rejected Lord of Oedo"
+    0x07f: "Riding Dragon From Folkypoke"
+    0x080: "Plasma told you to Resurrect Sasuke"
+    0x081: "Rejected Mini-Ebisu Training Offer (Unused?)"
+    0x082: "Money Handling Flag"
+    0x09c: "Witch Cutscene Flag #2"
+    0x09d: "Witch Cutscene Flag #3"
+    0x09e: "Witch Cutscene Flag #4"
+    0x09f: "Witch Cutscene Flag #5"
+    0x0a0: "Witch Cutscene Flag #6"
+    0x1c5: "Bought Dharma from Cat Eyes"
+    0x1c6: "Bought Notice Board from Cat Eyes"
+    0x1c7: "Bought Doll from Cat Eyes"
+    -1:    "Unknown"
+  address:
+    0x8003f0cc: "Wait For Timer"
+    0x8003f200: "Load Current Character"
+    0x8003f274: "Play Sound"
+    0x8007d28c: "Dialogue Portrait Character"
+    0x800cd4f0: "Using Controller Pak Status"
+    0x80161dd0: "Maximum Health"
+    0x80161dd4: "Current Health"
+    0x80161dd8: "Current Ryo"
+    0x80161de0: "Current Rice Ball"
+    0x80161e8c: "Recruited Goemon"
+    0x80161e90: "Recruited Ebisumaru"
+    0x80161e94: "Recruited Sasuke"
+    0x80161e98: "Recruited Yae"
+    0x80161e9c: "Goemon Weapon Level"
+    0x80161ea0: "Ebisumaru Weapon Level"
+    0x80161ea4: "Sasuke Weapon Level"
+    0x80161ea8: "Yae Weapon Level"
+    0x80161eac: "Obtained Chain Pipe"
+    0x80161eb0: "Obtained Meatsaw Hammer"
+    0x80161eb4: "Obtained Firecracker Bomb"
+    0x80161eb8: "Obtained Flute"
+    0x80161ebc: "Obtained Normal Ryo Throw"
+    0x80161ec0: "Obtained Wind-Up Camera"
+    0x80161ec4: "Obtained Ice Kunai"
+    0x80161ec8: "Obtained Bazooka"
+    0x80161ecc: "Fire Ryo Chargeable?"
+    0x80161ed0: "Wind-Up Camera Chargeable?"
+    0x80161ed4: "Kunai Hail Beam Chargeable?"
+    0x80161ed8: "Lock on Bazooka Chargeable?"
+    0x80161edc: "Obtained Sudden Impact Magic"
+    0x80161ee0: "Obtained Mini-Ebisu Magic"
+    0x80161ee4: "Obtained Super Jump Magic"
+    0x80161ee8: "Obtained Mermaid Magic"
+    0x80161eec: "Obtained Triton Shell"
+    0x80161ef0: "Obtained Super Pass"
+    0x80161ef4: "Fortune Doll Progress"
+    0x80161ef8: "Total Fortune Dolls Obtained"
+    0x80161efc: "Obtained Achilles Heel"
+    0x80161f00: "Obtained Key to Training"
+    0x80161f04: "Obtained Quality Cucumber"
+    0x80161f08: "Total Red Fish Obtained"
+    0x80161f0c: "Total Yellow Fish Obtained"
+    0x80161f10: "Total Blue Fish Obtained"
+    0x80162054: "Obtained Miracle Snow"
+    0x801620a4: "Obtained Oedo Castle Warp Point"
+    0x801cce70: "Scratch"
+    0x801cce80: "Scratch"
+    0x801cce8c: "Dialogue Window Y Pos"
+    0x801cce98: "Dialogue Window Style"
+    0x801ccf08: "Text Speed"
+    0x80226d44: "Give/Take Ryo"
+    0x80226da4: "Load Current Ryo"
+    0x80226ed8: "Recover Health"
+    -1:         "Unknown"
+
+instructions:
+  0x8002:
+    comment:                "Skip Next If Not Equal: {value:x}"
+    parameters:
+      value:
+        length:             4
+  0x8003:
+    comment:                "Skip Next If Equal: {value:x}"
+    parameters:
+      value:
+        length:             4
+  0x8004:
+    comment:                "Write to RAM {address:x} ({_pretty_address})"
+    parameters:
+      address:
+        length:             4
+  0x8006:
+    comment:                "Read from RAM {address:x} ({_pretty_address})"
+    parameters:
+      address:
+        length:             4
+  0x8008:
+    comment:                "End Event"
+  0x8009:
+    comment:                "Store Value: {value:x}"
+    parameters:
+      value:
+        length:             4
+  0x800a:
+    comment:                "Jump To {address:x}"
+    parameter_order:        ['prefix', 'address']
+    parameters:
+      prefix:
+        length:             1
+      address:
+        length:             3
+        track_pointer:      True
+        virtual_address:    0
+  0x800b:
+    comment:                "Execute Code: {address:x} ({_pretty_address})"
+    parameters:
+      address:
+        length:             4
+  0x800c:
+    comment:                "Skip Next If Not Less Than {value:x}"
+    parameters:
+      value:
+        length:             4
+  0x8010:
+    comment:                "Print Text"
+    parameter_order:        ['prefix', 'text']
+    parameters:
+      prefix:
+        length:             1
+      text:
+        length:             3
+        track_pointer:      True
+        virtual_address:    0
+        is_text:            True
+  0x8011:
+    comment:                "Begin Option Selection"
+  0x8012:
+    comment:                "End Option Selection"
+  0x8013:
+    comment:                "Increase By {value:x}"
+    parameters:
+      value:
+        length:             4
+  0x8015:
+    comment:                "Unknown 8015 (Related to saving)"
+    parameters:
+      address:
+        length:             4
+  0x8017:
+    comment:                "Unknown 8017 (Related to saving)"
+    parameters:
+      value:
+        length:             4
+  0x8020:
+    comment:                "Set Flag {flag:0>3x} ({_pretty_flag})"
+    parameters:
+      flag:
+        length:             4
+  0x8021:
+    comment:                "Unset Flag {flag:0>3x} ({_pretty_flag})"
+    parameters:
+      flag:
+        length:             4
+  0x8022:
+    comment:                "If Flag {flag:0>3x} ({_pretty_flag}), Jump To {address:x}"
+    parameter_order:        ['flag', 'prefix', 'address']
+    parameters:
+      flag:
+        length:             4
+      prefix:
+        length:             1
+      address:
+        length:             3
+        track_pointer:      True
+        virtual_address:    0
+  0x8030:
+    comment:                "Skip Next If {address:x} ({_pretty_address}) Not Equal"
+    parameters:
+      address:
+        length:             4

@@ -1,0 +1,2 @@
+item_name,12,str
+unknown,4,list

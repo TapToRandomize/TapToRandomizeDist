@@ -1,0 +1,24 @@
+# Hashes of file build rules.
+b8df3883023c6abf365b367889e5f5d6 /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/assets/entity_type_names.json.hxx
+7e85bdf160df471fe093020294337861 /home/akerasi/TapToRandomize/vendor/randstalker/extlibs/landstalker_lib/landstalker-lib/assets/fixed_hud_tilemap.bin.hxx
+72df7631ee8205a8aa5d2f4a803de8de /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/archipelago_item.bin.hxx
+a1ca2676566aff2a4f10d7f0850c8653 /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/blue_jewel.bin.hxx
+0bedbef981e5416c63b4f76143d0b61d /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/christmas_moneybag.bin.hxx
+1e4989888609b48db4773825cc6cfd65 /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/game_strings.json.hxx
+db4a5e67a060693ab4293c29d3c2c961 /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/green_jewel.bin.hxx
+d52ea890e36635bf8ec61714776b033f /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/secret_arg_music_bank.bin.hxx
+cb6d6f97d8aacd4cb97f725ccee9ff23 /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/titlescreen/title1_layout.rle.hxx
+1505ab1de6121477ba58b992bb11e64d /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/titlescreen/title1_tiles.lz77.hxx
+c1d5a4bdff891683759b1ce5bdcb6c67 /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/titlescreen/title2_layout.rle.hxx
+ad2248f6eaa30f661e4becd6fbf01c1a /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/titlescreen/title2_tiles.lz77.hxx
+40f9005f28b12c613eabb7e3aedce9ba /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/titlescreen/title3_layout.rle.hxx
+57a017376a54c98728fd7b9783f3de6b /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/titlescreen/title3_tiles.lz77.hxx
+652b6c3ec7005b9983631937201a47b6 /home/akerasi/TapToRandomize/vendor/randstalker/src/assets/yellow_jewel.bin.hxx
+9b5574656084083581218f1196567d40 /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/data/hint_source.json.hxx
+64b2632f04cdeb268f846f0da7a7ed6a /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/data/item.json.hxx
+595fa7bd2f38ae8437849dfc939f2d4a /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/data/item_source.json.hxx
+8d5de88e2cbb72eaffbcfa204613ed9d /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/data/spawn_location.json.hxx
+d8645c858acd6225cca254bb3fbd5af2 /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/data/world_node.json.hxx
+264e7a284fc8e2adcd9ab4e670e88cf4 /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/data/world_path.json.hxx
+3a6a39d20192626b51d2af2d03b64065 /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/data/world_region.json.hxx
+a851d7874f44700a73abc0a52b056d42 /home/akerasi/TapToRandomize/vendor/randstalker/src/logic_model/data/world_teleport_tree.json.hxx

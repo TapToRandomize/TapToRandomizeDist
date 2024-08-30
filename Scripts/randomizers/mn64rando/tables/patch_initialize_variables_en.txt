@@ -1,0 +1,27 @@
+# RAM address 00b69c
+00c29c: 0c 00 ff c8     # JAL 0x8003ff20
+        00 00 00 00
+        00 00 00 00
+
+# RAM address 03ff20
+040b20: ac 82 00 90     # Set Unknown flag
+        24 02 00 {{initial_character:00}}
+        ac 82 00 68     # Initial Starting Character
+        24 02 00 01     # Restore V0=1
+        03 e0 00 08     # Return
+
+VALIDATION
+
+00c29c: ac 82 00 90
+        ac 82 00 94
+        ac 82 00 98
+
+040b20: 00 00 00 00
+        00 00 00 00
+        00 00 00 00
+        00 00 00 00
+        00 00 00 00
+        00 00 00 00
+        00 00 00 00
+        00 00 00 00
+        00 00 00 00
