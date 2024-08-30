@@ -235,7 +235,9 @@ ar(){
         cd randomizers/actraiser-randomizer/
         setupPythonEnv
         actraiser_optionstring
-        cp $ARRomPath ./ar.sfc
+        cp "$ARRomPath" ./
+        ARRomPathFinal="${ARRomPath##*/}"
+        mv "$ARRomPathFinal" ar.sfc
         python actraiser_randomizer.py $aroptions
         rm ar.sfc
         cd ../../
