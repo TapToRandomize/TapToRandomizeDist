@@ -23,7 +23,7 @@ shift_old_seeds(){
                 cd $BaseRandoDir/archive
                 ls -1tr | head -n -$KeepSeeds | xargs -d '\n' rm -f --
                 cd /media/fat/Scripts
-        fi;
+        fi
 }
 archipelago_generate(){
         python $RandomizerBasedir/yamlupdater.py
