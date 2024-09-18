@@ -26,7 +26,10 @@ shift_old_seeds(){
         fi
 }
 archipelago_generate(){
-        python $RandomizerBasedir/yamlupdater.py
+        EnvIdentifier='ap'
+	setupPythonEnv
+	python -m pip install pyyaml
+	python $RandomizerBasedir/yamlupdater.py
         if [[ -z ${TmpDir} ]]; then
                 echo "TmpDir variable does not exist; if TmpDir is not set, this cannot run."
                 return 1
